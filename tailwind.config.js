@@ -1,0 +1,20 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'], // ajoute la police Inter
+      },
+      colors: {
+        primary: '#4F46E5',   // couleur principale
+        secondary: '#06B6D4', // couleur secondaire
+      },
+      
+    },
+  },
+  plugins: [],
+};
