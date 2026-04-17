@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import MainContent from './components/MainContent'
+import Pointa from './components/mapdash'
 
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
 
   return (
     <div className="w-full mx-auto h-screen overflow-hidden">
-      <MainContent active={active} setActive={setActive}/>
+      {/* <MainContent active={active} setActive={setActive}/> */}
+      <Pointa active={active} setActive={setActive}/>
     </div>
   )
 }
